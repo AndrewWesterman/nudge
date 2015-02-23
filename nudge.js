@@ -24,11 +24,9 @@ function beginPage(res, title) {
     res.write("<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css'><link>\n");
     res.write("</head>\n");
     res.write("<body>\n");
-    // res.write("<div class='container'>\n")
     res.write("<nav class='navbar navbar-inverse navbar-static-top'>\n")    
     res.write("<a class='navbar-brand' href='#'>nudge</a>\n")    
     res.write("</nav>\n")
-    // res.write("</div>\n")
 }
  
 function endPage(res) {
@@ -38,9 +36,7 @@ function endPage(res) {
 }
  
 function writeHeading(res, tag, title) {
-    // res.write("<div class='container'>\n")
     res.write("<" + tag + ">" + title + "</" + tag + ">\n");
-    // res.write("</div>\n")
 }
  
 function writePre(res, divClass, data) {
