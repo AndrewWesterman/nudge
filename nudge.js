@@ -21,7 +21,7 @@ function beginPage(res, title) {
     res.write("<head>\n");
     res.write("<meta charset='utf-8'>\n");
     res.write("<title>"+ title + "</title>\n");
-    res.write("<link rel='stylesheet' href='style.css' type='text/css'>\n");
+    res.write("<link rel='stylesheet' href='bootstrap/bootstrap.css' type='text/css'>\n");
     res.write("</head>\n");
     res.write("<body>\n");
 }
